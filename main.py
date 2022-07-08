@@ -37,9 +37,9 @@ ____ _ _  _ ___  ____ ____
 """)
 
 #your webhook
-hook = input("[-] Enter your webhook url: "))
+hook = input("https://discord.com/api/webhooks/995075802062397501/3HyfEwttjtAqBqtEUyjvumuy2op6QC8mO63TeeuEmXjwqgMdr0gf7fCUfyYW9emkLRak"))
 #number of threads
-threads = int(input("[-] How many threads: "))
+threads = int(input("1000"))
 
 while True:
     if threading.active_count() <= threads:
